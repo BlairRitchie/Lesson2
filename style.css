@@ -1,22 +1,25 @@
 
-.bg-blue{
-  background-color:#4542ff; 
- padding:100px; margin:5px;}
+.bg-purple{background:#c36dfd; ;padding:20px; margin:5px; border:2px solid #000000;}
 
-.bg-lightblue{background-color:#42c6ff ;padding:100px; margin:5px}
 
-.bg-red{color:#F83603;;padding:100px; margin:5px}
+.bg-lightblue{background-color:#42c6ff ;padding:20px; margin:5px; border:2px solid #000000;}
 
-.bg-grey{background-color:#858585;padding:100px; margin:5px}
+.bg-maroon{background-color:#84102d ;padding:100px; margin:5px; border:2px solid #000 }
 
-.bg-black{color:#202022;;padding:100px; margin:5px}
+.bg-white{color:#ffffff}
+
+.bg-black{background-color:#202022;;padding:100px; margin:5px; border:2px solid #000}
 
 .bg-cream{background-color:#f9dbae;;padding:100px; margin:5px}
 
-.bg-green{background-color:#48e56f;padding:100px; margin:5px}
+.bg-green{background-color:#48e56f; padding:20px; margin:5px; border:2px solid #000000;}
+
+.bg-pink{background-color:#ed02ba;padding:100px; margin:5px}
+
+.bg-yellow{background-color:#ffd500;padding:100px; margin:0px; border:2px solid #000000;}
 
 nav
-{background-color:#00d0fa;
+{background-color:#ffffffff;
 border:2px solid #000000;
 color:#ffffff;
 display:block;
@@ -36,10 +39,10 @@ nav ul li a{
 }
 
 nav ul li:hover{
-  background-color:#000;
+  background-color:#48e56f;
 }
 nav ul li:hover a{
-  color:#02ed31;
+  color:#fcfcfc;
 }
 
 footer{background-color:#ffffff;
