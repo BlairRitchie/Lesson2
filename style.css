@@ -1,27 +1,27 @@
+/*.bg-red #f3090f rgb(243,9,15)*/
+/*lightblue #42c6ff rgb(66,198,255)*/
+/*purple #c36dfd rgb(195,109,253) */
+/*.bg-white #ffffff rgb(255,255,255) */
+/*bg-black #000000 rgb rgb(0,0,0) */
 
-.bg-purple{background:#c36dfd; ;padding:20px; margin:5px; border:2px solid #000000;}
+.bg-red {background-color:rgba(243,9,15,1); ;padding:20px; margin:5px; border:2px solid #000000;}
 
+.bg-purple{background:rgba(195,109,253); ;padding:20px; margin:5px; border:2px solid #000000;}
 
-.bg-lightblue{background-color:#42c6ff ;padding:20px; margin:5px; border:2px solid #000000;}
+.bg-lightblue{background-color:rgba(66,198,255) ;padding:20px; margin:5px; border:2px solid #000000;}
 
-.bg-maroon{background-color:#84102d ;padding:100px; margin:5px; border:2px solid #000 }
+.bg-green{background-color:rgba(72,229,111,1); padding:20px; margin:5px; border:2px solid #000000;}
 
-.bg-white{color:#ffffff}
+.bg-white{color:rgba(255,255,255,);}
 
-.bg-black{background-color:#202022;;padding:100px; margin:5px; border:2px solid #000}
+.bg-black{color:rgba(0,0,0,);}
 
-.bg-cream{background-color:#f9dbae;;padding:100px; margin:5px}
-
-.bg-green{background-color:#48e56f; padding:20px; margin:5px; border:2px solid #000000;}
-
-.bg-pink{background-color:#ed02ba;padding:100px; margin:5px}
-
-.bg-yellow{background-color:#ffd500;padding:100px; margin:0px; border:2px solid #000000;}
+.bg-green{background-color:rgba(72,229,111,1); padding:20px; margin:5px; border:2px solid #000000;}
 
 nav
-{background-color:#ffffffff;
-border:2px solid #000000;
-color:#ffffff;
+{background-color:rgba(255,255,255,);
+border:2px solid rgba(0,0,0,1);
+color:rgba(255,255,255,);
 display:block;
 overflow:hidden;
 width:100%;}
@@ -31,7 +31,7 @@ nav ul li{
   list-style-type:none;
 }
 nav ul li a{
-  color:#000;
+  color:rgba(0,0,0,);
   display: block;
   line-height:56px;
   text-decroation:none;
@@ -39,13 +39,24 @@ nav ul li a{
 }
 
 nav ul li:hover{
-  background-color:#48e56f;
+  background-color:rgba(72,229,111,1);
 }
 nav ul li:hover a{
-  color:#fcfcfc;
+  color:rgba(255,255,255,);
 }
 
-footer{background-color:#ffffff;
-      color:#000000;
+footer{background-color:rgba(255,255,255,);
+      color:rgba(0,0,0,);
       text-align:center;
       padding:3px;}
+
+/***this is style for tablet***/
+@media screen and (max-width: 992px){
+  
+.bg-green{background-color:rgba(72,229,111,0.5) ;padding:20px; margin:0px; border:2px solid #000000;
+         }
+
+
+/***this is style for phone***/
+@media screen and (max-width: 600px){
+.bg-green{background-color:rgba(72,229,111,0.1) ;padding:20px; margin:0px; border:2px solid #000000;} }
