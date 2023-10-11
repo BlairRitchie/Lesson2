@@ -17,9 +17,10 @@
 .bg-black{color:rgba(0,0,0,);}
 
 title{
-font-family: 'Pixelify Sans', cursive;  
+font-family: 'Dela Gothic One', cursive;  
 }
-
+p{font-family: 'Pixelify Sans', cursive;
+}
 h1{
 font-family: 'Dela Gothic One', cursive;}
 h2{
